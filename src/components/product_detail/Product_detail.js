@@ -10,14 +10,18 @@ export default function Product_detail(props) {
             <div className="product_detail">
                 <Link to={`/product-detail/${product.id}`}>
                     <Card>
-                        <img alt="Sample" src="https://picsum.photos/300/200" />
+                        <img alt="Sample" src="https://image.lensmartonline.com/2023-08-29/16932903337954.jpg?imageView2/2/interlace/1/ignore-error/1/format/webp/w/960" />
                         <CardBody>
-                            <CardTitle tag="h5">Card title</CardTitle>
-                            <CardSubtitle className="mb-2 text-muted" tag="h6">
-                                {product.name}
+                            <CardTitle>{product.name}</CardTitle>
+                            <CardSubtitle className="mb-2" tag="h5">
+                                ${product.price}
                             </CardSubtitle>
-                            <CardText>Some quick example text to build on the card title and make up the bulk of the card‘s content.</CardText>
-                            <Button>Button</Button>
+                            <div className="color_group">
+                                <div className="color color1"></div>
+                                <div className="color color2"></div>
+                                <div className="color color3"></div>
+                            </div>
+                            <Button>ADD TO CART</Button>
                         </CardBody>
                     </Card>
                 </Link>
