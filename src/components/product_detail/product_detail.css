@@ -1,7 +1,11 @@
 .card {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 32px !important;
     transition: 1s;
+    margin-right: 12px !important;
+}
+a {
+    text-decoration: none !important;
 }
 .card:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
