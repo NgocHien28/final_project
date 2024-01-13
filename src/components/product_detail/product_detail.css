@@ -3,6 +3,8 @@
     margin-bottom: 32px !important;
     transition: 1s;
     margin-right: 12px !important;
+    background-color: var(--backgroud-color) !important;
+    border: none !important;
 }
 a {
     text-decoration: none !important;
@@ -11,32 +13,32 @@ a {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card:hover .card-title {
-    color: #4834d4;
+    color: var(--secondary-color-semibold);
 }
-.card:hover .card-subtitle {
-    font-weight: 700;
-}
+
 .card img {
     padding: 20px;
 }
 .card-title {
-    text-decoration-line: none !important;
     font-weight: 500;
 }
 .card-subtitle {
-    font-size: 20px;
-    color: #fb0404 !important;
-    font-weight: 600;
+    font-size: 16px;
+    color: var(--main-color-bold) !important;
+    font-weight: 700;
     margin-top: 12px !important;
 }
 .btn {
-    background-color: #fd6868 !important;
+    background-color: var(--main-color-light) !important;
     border: none !important;
     width: 100%;
     transform: translateY(50px);
     opacity: 0;
     transition: 0.5s !important;
     padding: 12px !important;
+}
+.btn:hover {
+    background-color: var(--main-color-light2) !important;
 }
 .card:hover .btn {
     transform: translateY(-30px);
@@ -50,20 +52,20 @@ a {
     margin: 0 4px;
 }
 .color1 {
-    width: 20px;
-    height: 20px;
-    background-color: #81ecec;
+    width: 16px;
+    height: 16px;
+    background-color: #062f2f;
     border-radius: 50%;
 }
 .color2 {
-    width: 20px;
-    height: 20px;
-    background-color: #fd79a8;
+    width: 16px;
+    height: 16px;
+    background-color: #ee3e7c;
     border-radius: 50%;
 }
 .color3 {
-    width: 20px;
-    height: 20px;
-    background-color: #fab1a0;
+    width: 16px;
+    height: 16px;
+    background-color: #f18a73;
     border-radius: 50%;
 }
