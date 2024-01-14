@@ -1,0 +1,59 @@
+.footer {
+    margin: 20px auto 0;
+    padding: 20px 100px;
+    background-color: var(--text-color-light03);
+}
+.footer .column_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+}
+.footer .column_title p {
+    margin: 0px;
+}
+.footer .column_content ul {
+    padding-left: 0 !important;
+}
+.footer .column_content li {
+    margin: 0;
+}
+
+.footer li {
+    list-style-type: none;
+}
+.footer li a {
+    color: var(--text-color-bold);
+}
+.footer a:hover {
+    color: var(--main-color-medium);
+}
+.footer .follow {
+    display: flex;
+}
+.footer .facebook_icon,
+.footer .instagram_icon,
+.footer .tiktok_icon {
+    width: 32px;
+    height: 32px;
+}
+.footer .shopitem .shopname {
+    font-size: 16px;
+}
+.footer .shopitem .shopaddress,
+.footer .shopitem .shopphone {
+    font-size: 14px;
+}
+.footer .shopitem .map {
+    font-size: 12px;
+}
+.footer .shopitem p {
+    margin: 4px;
+}
+.copyright {
+    text-align: center;
+    background-color: var(--text-color-light02);
+    padding: 4px 0;
+}
+.copyright p {
+    margin: 0;
+}

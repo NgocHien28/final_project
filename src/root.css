@@ -7,11 +7,12 @@ img {
     width: 100%;
 }
 :root {
-    --backgroud-color: #f7f7f9;
+    --backgroud-color01: #f7f7f9;
     --text-color-bold: #4d4d4d;
     --text-color-medium: #808080;
     --text-color-light: #999999;
     --text-color-light02: #b3b3b3;
+    --text-color-light03: #dcdada;
     --main-color-medium: #fc3636;
     --main-color-bold: #e13737;
     --main-color-light: #fd6868;
