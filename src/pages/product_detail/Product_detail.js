@@ -2,9 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import detail01 from "../../img/detail01.png";
 import "./product_detail.css";
-import {Col, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
+import Imageslide from "../../components/imageslide/Imageslide";
 
 export default function Product_detail() {
     const { id } = useParams();
@@ -15,7 +15,7 @@ export default function Product_detail() {
             <div className="product_detail">
                 <div className="product_intro">
                     <div className="left">
-                        <img src={detail01} />
+                        <Imageslide />
                     </div>
                     <div className="right">
                         <p>Thông tin mô tả về sản phẩm</p>

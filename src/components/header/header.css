@@ -4,7 +4,6 @@
     align-items: center;
     margin: 20px auto;
 }
-
 .menubar ul {
     display: flex;
     align-items: center;
@@ -15,11 +14,11 @@
     margin: 4px;
     padding: 8px !important;
 }
-.menubar a {
+.nav-link {
     color: var(--text-color-bold) !important;
     font-weight: 600;
 }
-.menubar a:hover {
+.nav-link:hover {
     color: var(--main-color-medium) !important;
 }
 .search_area {
@@ -34,7 +33,7 @@
     background-color: var(--secondary-color-light);
     border: none;
     outline: none;
-    width: 100px;
+    width: 140px;
 }
 .search_icon,
 .user_icon,
