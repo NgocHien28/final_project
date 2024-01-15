@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import "./product_detail.css";
 import { Col, Row } from "reactstrap";
 import Imageslide from "../../components/imageslide/Imageslide";
+import axios from "axios";
 
 export default function Product_detail() {
     const { id } = useParams();
+    const [data, setData] = useState([]);
+    const url = "https://659ac0f6652b843dea53f249.mockapi.io/list/${id}"; //xem lại ví dụ truyền biến vào chuỗi
+    useEffect(() => {
+        axios.get(url).then(function (res) {
+            setData(res.data);
+        });
+    }, []);
     return (
         <div>
             <Header />
