@@ -42,7 +42,6 @@ import img37 from "../../img/product_37.jpg";
 import img38 from "../../img/product_38.jpg";
 import img39 from "../../img/product_39.jpg";
 import img40 from "../../img/product_40.jpg";
-import PaginationOutlined from "../pagination/PaginationOutlined";
 
 export default function Products() {
     const [data, setData] = useState([]);
@@ -103,7 +102,6 @@ export default function Products() {
                         <Product_detail key={index} product={item} img={arr[index]} />
                     ))}
                 </Row>
-                <PaginationOutlined />
             </Container>
         </div>
     );

@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import detail01 from "../../img/detail01.png";
 import "./product_detail.css";
-import { Carousel, Col, Row } from "reactstrap";
+import {Col, Row } from "reactstrap";
 
 export default function Product_detail() {
     const { id } = useParams();
