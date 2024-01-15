@@ -10,10 +10,11 @@ import axios from "axios";
 export default function Product_detail() {
     const { id } = useParams();
     const [data, setData] = useState([]);
-    const url = "https://659ac0f6652b843dea53f249.mockapi.io/list/${id}"; //xem lại ví dụ truyền biến vào chuỗi
+    const url = `https://659ac0f6652b843dea53f249.mockapi.io/list/${id}`; //xem lại ví dụ truyền biến vào chuỗ
     useEffect(() => {
         axios.get(url).then(function (res) {
             setData(res.data);
+            // console.log(res);
         });
     }, []);
     return (
@@ -27,6 +28,8 @@ export default function Product_detail() {
                     </div>
                     <div className="right">
                         <p>Thông tin mô tả về sản phẩm</p>
+                        <p>{data.name}</p>
+                        <p>${data.price}</p>
                     </div>
                 </div>
                 <div className="product_feature">
