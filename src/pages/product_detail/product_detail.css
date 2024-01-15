@@ -6,6 +6,7 @@
 }
 .product_intro .right {
     width: 50%;
+    flex-direction: column;
 }
 .titleh3 {
     font-weight: 600;
