@@ -47,3 +47,6 @@
     align-items: center;
     margin: 0 24px;
 }
+.navbar-toggler {
+    padding: 4px !important;
+}
