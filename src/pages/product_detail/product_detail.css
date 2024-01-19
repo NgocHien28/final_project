@@ -8,6 +8,9 @@
     width: 50%;
     flex-direction: column;
 }
+.product_intro .right h6{
+    color: #D980FA;
+}
 .titleh3 {
     font-weight: 600;
     color: var(--secondary-color-semibold);

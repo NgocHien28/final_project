@@ -27,8 +27,7 @@ export default function Product_detail() {
                         <Imageslide />
                     </div>
                     <div className="right">
-                        <p>Thông tin mô tả về sản phẩm</p>
-                        <p>{data.name}</p>
+                        <h6>{data.name}</h6>
                         <p>${data.price}</p>
                     </div>
                 </div>
