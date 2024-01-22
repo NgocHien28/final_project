@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Button } from "reactstrap";
+import { Card, CardBody, CardSubtitle, CardTitle, Col, Button } from "reactstrap";
 import "./product_detail.css";
 export default function Product_detail(props) {
     const { product, img } = props;
