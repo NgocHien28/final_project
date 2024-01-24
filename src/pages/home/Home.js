@@ -28,8 +28,9 @@ export default function Home() {
             <Header />
             <div id="info">
                 <Container>
+                    <h2>NEW ARRIVAL</h2>
                     <Row>
-                        {data.slice(0, 8).map((item, index) => (
+                        {data.slice(0, 4).map((item, index) => (
                             <Product_detail key={index} product={item} img={arr[index]} />
                         ))}
                     </Row>

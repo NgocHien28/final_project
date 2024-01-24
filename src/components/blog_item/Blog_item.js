@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Container, Row } from "reactstrap";
-
+import "./blog_item.css";
 export default function Blog_item() {
     const data=[
         {
@@ -23,8 +23,8 @@ export default function Blog_item() {
         },
     ]
     return (
-        <Container>
-            <h2 className="text-center">BLOGS</h2>
+        <Container className="blog_section">
+            <h2>BLOGS</h2>
             <Row>
         {
             data.map((item,index)=>(
