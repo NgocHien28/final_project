@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import logo from "../../img/JINS logo.svg";
-import { Link } from "react-router-dom";
 import "./header.css";
 import search_icon from "../../img/Menu_icon_search.svg";
 import user_icon from "../../img/user_gray.svg";
 import cart_icon from "../../img/cart_gray.svg";
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText } from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, NavbarText } from "reactstrap";
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
