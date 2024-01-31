@@ -13,6 +13,7 @@ import axios from "axios";
 import { Container, Row } from "reactstrap";
 import Product_detail from "../../components/product_detail/Product_detail";
 import Blog_item from "../../components/blog_item/Blog_item";
+import Popup from "../../components/popup/Popup";
 export default function Home() {
     const [data, setData] = useState([]);
     const url = "https://659ac0f6652b843dea53f249.mockapi.io/list";
@@ -26,6 +27,7 @@ export default function Home() {
     return (
         <div>
             <Header />
+
             <div id="info">
                 <Container>
                     <h2>NEW ARRIVAL</h2>
@@ -37,6 +39,7 @@ export default function Home() {
                 </Container>
             </div>
             <Blog_item />
+            <Popup />
             <Footer />
         </div>
     );

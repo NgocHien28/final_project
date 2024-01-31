@@ -1,0 +1,8 @@
+.popup button {
+    color: rgb(46, 43, 226);
+    background-color: rgb(253, 233, 207);
+    border: solid 1px coral;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin: 120px 100px;
+}
